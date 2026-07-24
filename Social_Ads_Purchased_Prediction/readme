@@ -1,0 +1,35 @@
+# Social Network Ads Purchase Prediction
+## Overview.
+This project predicts whether a customer will purchase a product based on two features:
+->Age,Estimated Salary.
+
+The project follows a basic Machine Learning workflow, including data preprocessing, model training, and evaluation.
+LIBRARIES USED :-
+->NumPy
+->Pandas
+->Matplotlib
+->Seaborn
+->Scikit-Learn
+
+1. Exploratory Data Analysis (EDA)
+This helped in understanding the relationship between Age, Estimated Salary, and Purchased.
+
+2. Data Preprocessing
+
+-> Split the dataset into training and testing data.
+->Applied StandardScaler on:
+->Age,Estimated Salary
+
+3. ML Model Used:-
+Logistic Regression
+
+
+Model Evaluation
+The model performance was evaluated using:
+Accuracy Score,confusion_matrx
+
+---
+
+## Author
+
+Devansh Chauhan
