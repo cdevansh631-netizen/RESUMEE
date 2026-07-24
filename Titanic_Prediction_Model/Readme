@@ -21,7 +21,7 @@ And Filling Embarked empty column with "Most Frequent One" .
 
 3--PREPROCESSING :-
  Doing Encoding ie-Changing Categorical Value Into Numerical Value  On Column Sex,Embarked.
-I Applied One Hot Encoding On Column Sex,Embarked. As There is Ordinal Order in These Column.
+I Applied One Hot Encoding On Column Sex,Embarked. As There is no Ordinal Order in These Column.
 Also Applied Standard Scalling On Column Fare,Price As, It Help To Transfer Data ie-mean bcm 0,Standard Deviation 1.
 Which Help To Perform Ml Model Better.
 
