@@ -1,0 +1,38 @@
+Overview :-
+This Model Is Basically Help Us to know that Whether a person will Survived or not.
+As this Model is Trained on Titanic Data Which is present in train.csv  .
+
+-->>LIBRARIES USED :-
+->NUMPY.
+->PANDAS.
+->MATPLOTLIB.
+->SEABORN.
+->SCIKET-LEARN.
+
+->THis Project Include :-
+
+1-EDA :-
+Firstly I did Exploratory Data Analyse With The help of libraries ie-(Pandas,Numpy,Seaborn,Matplot,Sciket_learn).
+Where I understand Relationship Amoung Various Column Present in dataset With the help of graph and eda.
+
+2-HANDLING MISSING VALUES:-
+Here,I handle missing data present in Age Column by filling vacant one with mean age.
+And Filling Embarked empty column with "Most Frequent One" . 
+
+3--PREPROCESSING :-
+ Doing Encoding ie-Changing Categorical Value Into Numerical Value  On Column Sex,Embarked.
+I Applied One Hot Encoding On Column Sex,Embarked. As There is Ordinal Order in These Column.
+Also Applied Standard Scalling On Column Fare,Price As, It Help To Transfer Data ie-mean bcm 0,Standard Deviation 1.
+Which Help To Perform Ml Model Better.
+
+TOOL USED :-
+Column Transformer,make_pipeline.
+
+4--Machine Learning Model :-
+I Checked accuracy,cross_val_score With the Help of Given Models ie-(Logistic Regression,Decision_Tree_Classifier,Random Forest).
+I choosed these Model To check Accuracy Bcz This Model Is Basically Based On Supervised Learning Under a classissification Problem
+And Based On Accuracy RANDOMFORESTCLASSIFIER gives best accuracy.
+
+FUTURE GOAL :-
+->MODEL_DEPLOYMENT.
+
