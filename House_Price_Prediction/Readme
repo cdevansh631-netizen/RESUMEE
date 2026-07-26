@@ -1,1 +1,46 @@
 
+Overview :-
+This Model Help Use to Predict What will Be Final Price of a House Based On given Dataset ie- Bedroom,bathroom etc.
+
+-->>LIBRARIES USED :-
+->NUMPY.
+->PANDAS.
+->MATPLOTLIB.
+->SEABORN.
+->SCIKET-LEARN.
+
+->THis Project Include :-
+
+1-EDA :-
+Firstly I did Exploratory Data Analyse With The help of libraries ie-(Pandas,Numpy,Seaborn,Matplot,Sciket_learn).
+Where I understand Relationship Amoung Various Column Present in dataset With the help of graph and eda.
+
+2-HANDLING MISSING VALUES:-
+There Is no Missing Value in Dataset . 
+
+3--PREPROCESSING :-
+During Preprocessing I Apply OneHotEncoder On column Location,Garage So I can change Categorical Into Numerical Value.
+And Standard Scaler On COlumns Year And AreaBuilt. 
+Therefore My ML Model Perform Better
+
+4--Machine Learning Model :-
+I Choose Linear_Regression,Random_Forest_RegressorXGBREgressor for this Data Set.
+Amoung Them Linear_Regression Perform Best .
+
+
+
+-->>OBSERVATION :-
+->Downtown Has Highest No Houses.
+->It is Clearly Shown That Every Type of House In term Of Area,Condition are Present in Every Price Range.
+->Almost Same Price For House Have Garage Or Not.
+->NO OUTLIER IN PRICE,AREA COLUMNS.
+->Downtown Has The Best Variety of House Whereas Rural Has the least.
+->MODELS	MEAN_ABSOLUTE_ERROR
+Linear_Regression--243453.001139
+Random_Forest_Regressor--254537.369200
+XGBRegressor--254537.369200
+
+
+
+FUTURE GOAL :-
+->MODEL_DEPLOYMENT.
